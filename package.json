@@ -2,7 +2,6 @@
   "name": "vidjot",
   "version": "1.0.0",
   "description": "App to save video ideas",
-  "homepage":"https:kiranbhalerao123.github.io/saveideasio/",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -16,7 +15,6 @@
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "express-session": "^1.15.6",
-    "gh-pages": "^1.2.0",
     "method-override": "^3.0.0",
     "mongoose": "^5.2.13",
     "passport": "^0.4.0",
