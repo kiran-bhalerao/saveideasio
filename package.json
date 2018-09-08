@@ -5,9 +5,7 @@
   "homepage":"https:kiranbhalerao123.github.io/saveideasio/",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "start": "node app.js"
   },
   "author": "Kiran Bhalerao",
   "license": "ISC",
