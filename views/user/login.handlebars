@@ -1,0 +1,23 @@
+{{#if error}}
+<div class="alert alert-danger">{{error}}</div>
+{{/if}}
+<div class="jumbotron">
+    <h1 class="text-center"><i class="large inverted green envira icon"></i>Account Login</h1>
+    <form class="ui form mt-4" action="/user/login" method="POST">
+        <div class="field">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="example@gmail.com" required value={{email}}>
+        </div>
+        <div class="field">
+            <label>Password</label>
+            <input type="password" name="password" placeholder="***" required>
+        </div>
+        <div class="field">
+            <div class="ui checkbox">
+                <input type="checkbox" tabindex="0" required>
+                <label>I agree to the Terms and Conditions</label>
+            </div>
+        </div>
+        <button class="positive ui button" type="submit">Submit</button>
+    </form>
+</div>
