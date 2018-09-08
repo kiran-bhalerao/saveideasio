@@ -2,9 +2,12 @@
   "name": "vidjot",
   "version": "1.0.0",
   "description": "App to save video ideas",
+  "homepage":"https:kiranbhalerao123.github.io/saveideasio/",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "author": "Kiran Bhalerao",
   "license": "ISC",
